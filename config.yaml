@@ -1,0 +1,8 @@
+project_name: Vinny eye
+ description: Configuration Management and Artifact Control System
+ version: 1.0.0
+ artifact_storage_path: ./artifacts
+ environment: development
+ logging_level: INFO
+ team_collaboration: true
+ git_integration: true
