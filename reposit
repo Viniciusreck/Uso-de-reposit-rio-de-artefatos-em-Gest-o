@@ -1,7 +1,32 @@
-Error Log:
-- Error 1: Description of the error.
-- Error 2: Description of another error.
+# Git Commands Script - Correct Workflow
 
-Solutions:
-1. Solution for Error 1.
-2. Solution for Error 2.
+## Step 1: Navigate into the cloned repository
+cd Uso-de-reposit-rio-de-artefatos-em-Gest-o
+
+## Step 2: Check repository status
+git status
+
+## Step 3: Stage all changes
+git add .
+
+## Step 4: Commit your changes with a message
+git commit -m "Your commit message here"
+
+## Step 5: Push changes to GitHub
+git push
+
+## Alternative: If you need to set up git config first
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+## Troubleshooting
+# If you get "not a git repository" error:
+# - Make sure you are inside the Uso-de-reposit-rio-de-artefatos-em-Gest-o directory
+# - Run: pwd (to see current directory)
+# - Run: ls -la (to verify .git folder exists)
+
+# If you need to clone again:
+git clone https://github.com/Viniciusreck/Uso-de-reposit-rio-de-artefatos-em-Gest-o.git
+
+# After cloning, always navigate into the directory:
+cd Uso-de-reposit-rio-de-artefatos-em-Gest-o
